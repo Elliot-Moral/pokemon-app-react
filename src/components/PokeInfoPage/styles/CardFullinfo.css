@@ -1,0 +1,131 @@
+.fullInfo__container{
+    width: 90%;
+    max-width: 1200px;
+    background-color: #FFF;
+    margin: 10em auto 2em auto;
+    border-radius: 12px;
+}
+.fullInfo__header{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+    width: 100%;
+    height: 185px;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+
+    img{
+        width: 320px;
+        position: absolute;
+        top: -70%;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+}
+.fullInfo__title{
+    text-align: center;
+    position: relative;
+    span{
+        display: inline-block;
+        margin-top: 1em;
+        font-size: 25px;
+        border: 1px solid #777;
+        padding: 5px;
+    }
+    h2{
+        margin: 0;
+        font-size: 35px;
+        text-transform: capitalize;
+        position: absolute;
+        background-color: #fff;
+        left: 50%;
+        padding: 0 0.3em;
+        transform: translateX(-50%);
+    }
+    hr{
+        color: #777;
+        margin-top: 2em;
+        margin-bottom: .8em;
+    }
+}
+
+.fullInfo__peso_altura{
+    display: flex;
+    justify-content: center;
+}
+.fullInfo__li{
+    display: grid;
+    margin: 10px;
+    text-align: center;
+    .fullInfo__li-data{
+        font-weight: 700;
+        font-size: 18px;
+
+    }
+}
+.fullInfo__tipos_habilities{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.title_mediun{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.data_mediun{
+    display: flex;
+    justify-content: space-around;
+        li{
+            width: 130px;
+            height: 40px;
+            background-color: #7EC6C5;
+            text-align: center;
+            padding: 8px;
+            color: #fff;
+        }
+}
+
+
+.cardFullInfo__stats{
+    padding: 20px;
+    position: relative;
+    margin-top: 3em;
+    header{
+        h2{
+            position: absolute;
+            top: -35px;
+            font-size: 2em;
+            font-weight: 500;
+            background-color: #FFF;
+            padding-right: 20px;
+        }
+        hr{
+            margin-bottom: 3em;
+            color: #777;
+        }
+    }
+}
+.stat__data{
+
+    display: flex;
+    justify-content: space-between;
+    .stat__label{
+        text-transform: capitalize;
+    }
+}
+.stat__barra{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: #F6F6F6;
+}
+.stat__barra::before{
+    content: '';
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    z-index: 100;
+    position: absolute;
+}

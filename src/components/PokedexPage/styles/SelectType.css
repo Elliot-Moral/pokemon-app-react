@@ -1,0 +1,23 @@
+.select__type{
+    background-color: #D93F3F;
+    width: 20%;
+    color: aliceblue;
+    height: 40px;
+    border:none;
+    padding: 0 3em;
+    &:focus{
+        outline: 1px solid red;
+    }
+    option{
+        background-color: aliceblue;
+        color: #777;
+        width: 100%;
+        height: 50px;
+        &:hover{
+            background-color: #b06161;
+        }
+    }
+    &:hover{
+        background-color: #aa1c1c;
+    }
+}

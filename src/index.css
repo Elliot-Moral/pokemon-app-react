@@ -1,0 +1,39 @@
+
+*{
+  box-sizing: border-box;
+}
+html{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body{
+  margin: 0;
+}
+
+h1, h2 h3, h4, p, ul, hr{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+input, button{
+  font-family: inherit;
+}
+
+input{
+  outline:none
+}
+
+img{
+  display: block;
+}
+
+
+button{
+  cursor: pointer;
+}

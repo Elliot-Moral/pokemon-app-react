@@ -1,0 +1,18 @@
+.move__container{
+    background-color: #FFF;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.body__movimients{
+    margin-bottom: 40px;
+    padding:30px;
+    height: 200px;
+}.move__item{
+    background-color: #E5E5E5;
+    padding: 10px 20px;
+    margin: 7px;
+    display: inline-block;
+    border-radius: 20px;
+}
